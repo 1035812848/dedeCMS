@@ -1,0 +1,1 @@
+<li><a href="[field:url/]" class="tipsy" title="Facebook"><img src="[field:logo/]" alt="Facebook"></a></li>

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/templets/my/index.htm" line="72" mnemonic="5" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="671745fc-26c4-422a-96b0-b8f272549a3c" name="默认更改列表" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1976756573">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="6" />
+          <entry key="head,htm" value="1" />
+          <entry key="htm" value="50" />
+          <entry key="html" value="28" />
+          <entry key="inc" value="3" />
+          <entry key="js" value="4" />
+          <entry key="php" value="2" />
+          <entry key="png" value="5" />
+          <entry key="rnc" value="1" />
+          <entry key="woff" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="6" />
+          <entry key="HTML" value="78" />
+          <entry key="Image" value="5" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PHP" value="5" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="RNG Compact" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="htm" value="2323" />
+          <entry key="woff" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="2323" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fonts</find>
+      <find>twitter</find>
+      <find>800.555.1234</find>
+      <find>110</find>
+      <find>Nullam</find>
+      <find>特殊</find>
+      <find>gooGLE</find>
+      <find>goo</find>
+      <find>href=&quot;</find>
+      <find>.</find>
+      <find>src='</find>
+      <find>,e.insertBefore(d,e.firstChild)},abort:function(){d&amp;&amp;d.onload(0,1)}}}});var cf=a.ActiveXObject?function(){for(var a in ch)ch[a](0,1)}:!1,cg=0,ch;f.ajaxSettings.xhr=a.ActiveXObject?function(){return!this.isLocal&amp;&amp;ci()||cj()}:ci,function(a){f.extend(f.support,{ajax:!!a,cors:!!a&amp;&amp;&quot;withCredentials&quot;in a})}(f.ajaxSettings.xhr()),f.support.ajax&amp;&amp;f.ajaxTransport(function(c){if(!c.crossDomain||f.support.cors){var d;return{send:function(e,g){var h=c.xhr(),i,j;c.username?h.open(c.type,c.url,c.async,c.username,c.password):h.open(c.type,c.url,c.async);if(c.xhrFields)for(j in c.xhrFields)h[j]=c.xhrFields[j];c.mimeType&amp;&amp;h.overrideMimeType&amp;&amp;h.overrideMimeType(c.mimeType),!c.crossDomain&amp;&amp;!e[&quot;X-Requested-With&quot;]&amp;&amp;(e[&quot;X-Requested-With&quot;]=&quot;XMLHttpRequest&quot;);try{for(j in e)h.setRequestHeader(j,e[j])}catch(k){}h.send(c.hasContent&amp;&amp;c.data||null),d=function(a,e){var j,k,l,m,n;try{if(d&amp;&amp;(e||h.readyState===4)){d=b,i&amp;&amp;(h.onreadystatechange=f.noop,cf&amp;&amp;delete ch[i]);if(e)h.readyState!==4&amp;&amp;h.abort();else{j=h.status,l=h.getAllResponseHeaders(),m={},n=h.responseXML,n&amp;&amp;n.documentElement&amp;&amp;(m.xml=n),m.text=h.responseText;try{k=h.statusText}catch(o){k=&quot;&quot;}!j&amp;&amp;c.isLocal&amp;&amp;!c.crossDomain?j=m.text?200:404:j===1223&amp;&amp;(j=204)}}}catch(p){e||g(-1,p)}m&amp;&amp;g(j,k,m,l)},!c.async||h.readyState===4?d():(i=++cg,cf&amp;&amp;(ch||(ch={},f(a).unload(cf)),ch[i]=d),h.onreadystatechange=d)},abort:function(){d&amp;&amp;d(0,1)}}}});var ck={},cl,cm,cn=/^(?:toggle|show|hide)$/,co=/^([+\-]=)?([\d+.\-]+)([a-z%]*)$/i,cp,cq=[[&quot;height&quot;,&quot;marginTop&quot;,&quot;marginBottom&quot;,&quot;paddingTop&quot;,&quot;paddingBottom&quot;],[&quot;width&quot;,&quot;marginLeft&quot;,&quot;marginRight&quot;,&quot;paddingLeft&quot;,&quot;paddingRight&quot;],[&quot;opacity&quot;]],cr;f.fn.extend({show:function(a,b,c){var d,e;if(a||a===0)return this.animate(cu(&quot;show&quot;,3),a,b,c);for(var g=0,h=this.length;g&lt;h;g++)d=this[g],d.style&amp;&amp;(e=d.style.display,!f._data(d,&quot;olddisplay&quot;)&amp;&amp;e===&quot;none&quot;&amp;&amp;(e=d.style.display=&quot;&quot;),e===&quot;&quot;&amp;&amp;f.css(d,&quot;display&quot;)===&quot;none&quot;&amp;&amp;f._data(d,&quot;olddisplay&quot;,cv(d.nodeName)));for(g=0;g&lt;h;g++){d=this[g];if(d.style){e=d.style.display;if(e===&quot;&quot;||e===&quot;none&quot;)d.style.display=f._data(d,&quot;olddisplay&quot;)||&quot;&quot;}}return this},hide:function(a,b,c){if(a||a===0)return this.animate(cu(&quot;hide&quot;,3),a,b,c);var d,e,g=0,h=this.length;for(;g&lt;h;g++)d=this[g],d.style&amp;&amp;(e=f.css(d,&quot;display&quot;),e!==&quot;none&quot;&amp;&amp;!f._data(d,&quot;olddisplay&quot;)&amp;&amp;f._data(d,&quot;olddisplay&quot;,e));for(g=0;g&lt;h;g++)this[g].style&amp;&amp;(this[g].style.display=&quot;none&quot;);return this},_toggle:f.fn.toggle,toggle:function(a,b,c){var d=typeof a==&quot;boolean&quot;;f.isFunction(a)&amp;&amp;f.isFunction(b)?this._toggle.apply(this,arguments):a==null||d?this.each(function(){var b=d?a:f(this).is(&quot;:hidden&quot;);f(this)[b?&quot;show&quot;:&quot;hide&quot;]()}):this.animate(cu(&quot;toggle&quot;,3),a,b,c);return this},fadeTo:function(a,b,c,d){return this.filter(&quot;:hidden&quot;).css(&quot;opacity&quot;,0).show().end().animate({opacity:b},a,c,d)},animate:function(a,b,c,d){function g(){e.queue===!1&amp;&amp;f._mark(this);var b=f.extend({},e),c=this.nodeType===1,d=c&amp;&amp;f(this).is(&quot;:hidden&quot;),g,h,i,j,k,l,m,n,o;b.animatedProperties={};for(i in a){g=f.camelCase(i),i!==g&amp;&amp;(a[g]=a[i],delete a[i]),h=a[g],f.isArray(h)?(b.animatedProperties[g]=h[1],h=a[g]=h[0]):b.animatedProperties[g]=b.specialEasing&amp;&amp;b.specialEasing[g]||b.easing||&quot;swing&quot;;if(h===&quot;hide&quot;&amp;&amp;d||h===&quot;show&quot;&amp;&amp;!d)return b.complete.call(this);c&amp;&amp;(g===&quot;height&quot;||g===&quot;width&quot;)&amp;&amp;(b.overflow=[this.style.overflow,this.style.overflowX,this.style.overflowY],f.css(this,&quot;display&quot;)===&quot;inline&quot;&amp;&amp;f.css(this,&quot;float&quot;)===&quot;none&quot;&amp;&amp;(!f.support.inlineBlockNeedsLayout||cv(this.nodeName)===&quot;inline&quot;?this.style.display=&quot;inline-block&quot;:this.style.zoom=1))}b.overflow!=null&amp;&amp;(this.style.overflow=&quot;hidden&quot;);for(i in a)j=new f.fx(this,b,i),h=a[i],cn.test(h)?(o=f._data(this,&quot;toggle&quot;+i)||(h===&quot;toggle&quot;?d?&quot;show&quot;:&quot;hide&quot;:0),o?(f._data(this,&quot;toggle&quot;+i,o===&quot;show&quot;?&quot;hide&quot;:&quot;show&quot;),j[o]()):j[h]()):(k=co.exec(h),l=j.cur(),k?(m=parseFloat(k[2]),n=k[3]||(f.cssNumber[i]?&quot;&quot;:&quot;px&quot;),n!==&quot;px&quot;&amp;&amp;(f.style(this,i,(m||1)+n),l=(m||1)/j.cur()*l,f.style(this,i,l+n)),k[1]&amp;&amp;(m=(k[1]===&quot;-=&quot;?-1:1)*m+l),j.custom(l,m,n)):j.custom(l,h,&quot;&quot;));return!0}var e=f.speed(b,c,d);if(f.isEmptyObject(a))return this.each(e.complete,[!1]);a=f.extend({},a);return e.queue===!1?this.each(g):this.queue(e.queue,g)},stop:function(a,c,d){typeof a!=&quot;string&quot;&amp;&amp;(d=c,c=a,a=b),c&amp;&amp;a!==!1&amp;&amp;this.queue(a||&quot;fx&quot;,[]);return this.each(function(){function h(a,b,c){var e=b[c];f.removeData(a,c,!0),e.stop(d)}var b,c=!1,e=f.timers,g=f._data(this);d||f._unmark(!0,this);if(a==null)for(b in g)g[b]&amp;&amp;g[b].stop&amp;&amp;b.indexOf(&quot;.run&quot;)===b.length-4&amp;&amp;h(this,g,b);else g[b=a+&quot;.run&quot;]&amp;&amp;g[b].stop&amp;&amp;h(this,g,b);for(b=e.length;b--;)e[b].elem===this&amp;&amp;(a==null||e[b].queue===a)&amp;&amp;(d?e[b](!0):e[b].saveState(),c=!0,e.splice(b,1));(!d||!c)&amp;&amp;f.dequeue(this,a)})}}),f.each({slideDown:cu(&quot;show&quot;,1),slideUp:cu(&quot;hide&quot;,1),slideToggle:cu(&quot;toggle&quot;,1),fadeIn:{opacity:&quot;show&quot;},fadeOut:{opacity:&quot;hide&quot;},fadeToggle:{opacity:&quot;toggle&quot;}},function(a,b){f.fn[a]=function(a,c,d){return this.animate(b,a,c,d)}}),f.extend({speed:function(a,b,c){var d=a&amp;&amp;typeof a==&quot;object&quot;?f.extend({},a):{complete:c||!c&amp;&amp;b||f.isFunction(a)&amp;&amp;a,duration:a,easing:c&amp;&amp;b||b&amp;&amp;!f.isFunction(b)&amp;&amp;b};d.duration=f.fx.off?0:typeof d.duration==&quot;number&quot;?d.duration:d.duration in f.fx.speeds?f.fx.speeds[d.duration]:f.fx.speeds._default;if(d.queue==null||d.queue===!0)d.queue=&quot;fx&quot;;d.old=d.complete,d.complete=function(a){f.isFunction(d.old)&amp;&amp;d.old.call(this),d.queue?f.dequeue(this,d.queue):a!==!1&amp;&amp;f._unmark(this)};return d},easing:{linear:function(a,b,c,d){return c+d*a},swing:function(a,b,c,d){return(-Math.cos(a*Math.PI)/2+.5)*d+c}},timers:[],fx:function(a,b,c){this.options=b,this.elem=a,this.prop=c,b.orig=b.orig||{}}}),f.fx.prototype={update:function(){this.options.step&amp;&amp;this.options.step.call(this.elem,this.now,this),(f.fx.step[this.prop]||f.fx.step._default)(this)},cur:function(){if(this.elem[this.prop]!=null&amp;&amp;(!this.elem.style||this.elem.style[this.prop]==null))return this.elem[this.prop];var a,b=f.css(this.elem,this.prop);return isNaN(a=parseFloat(b))?!b||b===&quot;auto&quot;?0:b:a},custom:function(a,c,d){function h(a){return e.step(a)}var e=this,g=f.fx;this.startTime=cr||cs(),this.end=c,this.now=this.start=a,this.pos=this.state=0,this.unit=d||this.unit||(f.cssNumber[this.prop]?&quot;&quot;:&quot;px&quot;),h.queue=this.options.queue,h.elem=this.elem,h.saveState=function(){e.options.hide&amp;&amp;f._data(e.elem,&quot;fxshow&quot;+e.prop)===b&amp;&amp;f._data(e.elem,&quot;fxshow&quot;+e.prop,e.start)},h()&amp;&amp;f.timers.push(h)&amp;&amp;!cp&amp;&amp;(cp=setInterval(g.tick,g.interval))},show:function(){var a=f._data(this.elem,&quot;fxshow&quot;+this.prop);this.options.orig[this.prop]=a||f.style(this.elem,this.prop),this.options.show=!0,a!==b?this.custom(this.cur(),a):this.custom(this.prop===&quot;width&quot;||this.prop===&quot;height&quot;?1:0,this.cur()),f(this.elem).show()},hide:function(){this.options.orig[this.prop]=f._data(this.elem,&quot;fxshow&quot;+this.prop)||f.style(this.elem,this.prop),this.options.hide=!0,this.custom(this.cur(),0)},step:function(a){var b,c,d,e=cr||cs(),g=!0,h=this.elem,i=this.options;if(a||e&gt;=i.duration+this.startTime){this.now=this.end,this.pos=this.state=1,this.update(),i.animatedProperties[this.prop]=!0;for(b in i.animatedProperties)i.animatedProperties[b]!==!0&amp;&amp;(g=!1);if(g){i.overflow!=null&amp;&amp;!f.support.shrinkWrapBlocks&amp;&amp;f.each([&quot;&quot;,&quot;X&quot;,&quot;Y&quot;],function(a,b){h.style[&quot;overflow&quot;+b]=i.overflow[a]}),i.hide&amp;&amp;f(h).hide();if(i.hide||i.show)for(b in i.animatedProperties)f.style(h,b,i.orig[b]),f.removeData(h,&quot;fxshow&quot;+b,!0),f.removeData(h,&quot;toggle&quot;+b,!0);d=i.complete,d&amp;&amp;(i.complete=!1,d.call(h))}return!1}i.duration==Infinity?this.now=e:(c=e-this.startTime,this.state=c/i.duration,this.pos=f.easing[i.animatedProperties[this.prop]](this.state,c,0,1,i.duration),this.now=this.start+(this.end-this.start)*this.pos),this.update();return!0}},f.extend(f.fx,{tick:function(){var a,b=f.timers,c=0;for(;c&lt;b.length;c++)a=b[c],!a()&amp;&amp;b[c]===a&amp;&amp;b.splice(c--,1);b.length||f.fx.stop()},interval:13,stop:function(){clearInterval(cp),cp=null},speeds:{slow:600,fast:200,_default:400},step:{opacity:function(a){f.style(a.elem,&quot;opacity&quot;,a.now)},_default:function(a){a.elem.style&amp;&amp;a.elem.style[a.prop]!=null?a.elem.style[a.prop]=a.now+a.unit:a.elem[a.prop]=a.now}}}),f.each([&quot;width&quot;,&quot;height&quot;],function(a,b){f.fx.step[b]=function(a){f.style(a.elem,b,Math.max(0,a.now)+a.unit)}}),f.expr&amp;&amp;f.expr.filters&amp;&amp;(f.expr.filters.animated=function(a){return f.grep(f.timers,function(b){return a===b.elem}).length});var cw=/^t(?:able|d|h)$/i,cx=/^(?:body|html)$/i;&quot;getBoundingClientRect&quot;in c.documentElement?f.fn.offset=function(a){var b=this[0],c;if(a)return this.each(function(b){f.offset.setOffset(this,a,b)});if(!b||!b.ownerDocument)return null;if(b===b.ownerDocument.body)return f.offset.bodyOffset(b);try{c=b.getBoundingClientRect()}catch(d){}var e=b.ownerDocument,g=e.documentElement;if(!c||!f.contains(g,b))return c?{top:c.top,left:c.left}:{top:0,left:0};var h=e.body,i=cy(e),j=g.clientTop||h.clientTop||0,k=g.clientLeft||h.clientLeft||0,l=i.pageYOffset||f.support.boxModel&amp;&amp;g.scrollTop||h.scrollTop,m=i.pageXOffset||f.support.boxModel&amp;&amp;g.scrollLeft||h.scrollLeft,n=c.top+l-j,o=c.left+m-k;return{top:n,left:o}}:f.fn.offset=function(a){var b=this[0];if(a)return this.each(function(b){f.offset.setOffset(this,a,b)});if(!b||!b.ownerDocument)return null;if(b===b.ownerDocument.body)return f.offset.bodyOffset(b);var c,d=b.offsetParent,e=b,g=b.ownerDocument,h=g.documentElement,i=g.body,j=g.defaultView,k=j?j.getComputedStyle(b,null):b.currentStyle,l=b.offsetTop,m=b.offsetLeft;while((b=b.parentNode)&amp;&amp;b!==i&amp;&amp;b!==h){if(f.support.fixedPosition&amp;&amp;k.position===&quot;fixed&quot;)break;c=j?j.getComputedStyle(b,null):b.currentStyle,l-=b.scrollTop,m-=b.scrollLeft,b===d&amp;&amp;(l+=b.offsetTop,m+=b.offsetLeft,f.support.doesNotAddBorder&amp;&amp;(!f.support.doesAddBorderForTableAndCells||!cw.test(b.nodeName))&amp;&amp;(l+=parseFloat(c.borderTopWidth)||0,m+=parseFloat(c.borderLeftWidth)||0),e=d,d=b.offsetParent),f.support.subtractsBorderForOverflowNotVisible&amp;&amp;c.overflow!==&quot;visible&quot;&amp;&amp;(l+=parseFloat(c.borderTopWidth)||0,m+=parseFloat(c.borderLeftWidth)||0),k=c}if(k.position===&quot;relative&quot;||k.position===&quot;static&quot;)l+=i.offsetTop,m+=i.offsetLeft;f.support.fixedPosition&amp;&amp;k.position===&quot;fixed&quot;&amp;&amp;(l+=Math.max(h.scrollTop,i.scrollTop),m+=Math.max(h.scrollLeft,i.scrollLeft));return{top:l,left:m}},f.offset={bodyOffset:function(a){var b=a.offsetTop,c=a.offsetLeft;f.support.doesNotIncludeMarginInBodyOffset&amp;&amp;(b+=parseFloat(f.css(a,&quot;marginTop&quot;))||0,c+=parseFloat(f.css(a,&quot;marginLeft&quot;))||0);return{top:b,left:c}},setOffset:function(a,b,c){var d=f.css(a,&quot;position&quot;);d===&quot;static&quot;&amp;&amp;(a.style.position=&quot;relative&quot;);var e=f(a),g=e.offset(),h=f.css(a,&quot;top&quot;),i=f.css(a,&quot;left&quot;),j=(d===&quot;absolute&quot;||d===&quot;fixed&quot;)&amp;&amp;f.inArray(&quot;auto&quot;,[h,i])&gt;-1,k={},l={},m,n;j?(l=e.position(),m=l.top,n=l.left):(m=parseFloat(h)||0,n=parseFloat(i)||0),f.isFunction(b)&amp;&amp;(b=b.call(a,c,g)),b.top!=null&amp;&amp;(k.top=b.top-g.top+m),b.left!=null&amp;&amp;(k.left=b.left-g.left+n),&quot;using&quot;in b?b.using.call(a,k):e.css(k)}},f.fn.extend({position:function(){if(!this[0])return null;var a=this[0],b=this.offsetParent(),c=this.offset(),d=cx.test(b[0].nodeName)?{top:0,left:0}:b.offset();c.top-=parseFloat(f.css(a,&quot;marginTop&quot;))||0,c.left-=parseFloat(f.css(a,&quot;marginLeft&quot;))||0,d.top+=parseFloat(f.css(b[0],&quot;borderTopWidth&quot;))||0,d.left+=parseFloat(f.css(b[0],&quot;borderLeftWidth&quot;))||0;return{top:c.top-d.top,left:c.left-d.left}},offsetParent:function(){return this.map(function(){var a=this.offsetParent||c.body;while(a&amp;&amp;!cx.test(a.nodeName)&amp;&amp;f.css(a,&quot;position&quot;)===&quot;static&quot;)a=a.offsetParent;return a})}}),f.each([&quot;Left&quot;,&quot;Top&quot;],function(a,c){var d=&quot;scroll&quot;+c;f.fn[d]=function(c){var e,g;if(c===b){e=this[0];if(!e)return null;g=cy(e);return g?&quot;pageXOffset&quot;in g?g[a?&quot;pageYOffset&quot;:&quot;pageXOffset&quot;]:f.support.boxModel&amp;&amp;g.document.documentElement[d]||g.document.body[d]:e[d]}return this.each(function(){g=cy(this),g?g.scrollTo(a?f(g).scrollLeft():c,a?c:f(g).scrollTop()):this[d]=c})}}),f.each([&quot;Height&quot;,&quot;Width&quot;],function(a,c){var d=c.toLowerCase();f.fn[&quot;inner&quot;+c]=function(){var a=this[0];return a?a.style?parseFloat(f.css(a,d,&quot;padding&quot;)):this[d]():null},f.fn[&quot;outer&quot;+c]=function(a){var b=this[0];return b?b.style?parseFloat(f.css(b,d,a?&quot;margin&quot;:&quot;border&quot;)):this[d]():null},f.fn[d]=function(a){var e=this[0];if(!e)return a==null?null:this;if(f.isFunction(a))return this.each(function(b){var c=f(this);c[d](a.call(this,b,c[d]()))});if(f.isWindow(e)){var g=e.document.documentElement[&quot;client&quot;+c],h=e.document.body;return e.document.compatMode===&quot;CSS1Compat&quot;&amp;&amp;g||h&amp;&amp;h[&quot;client&quot;+c]||g}if(e.nodeType===9)return Math.max(e.documentElement[&quot;client&quot;+c],e.body[&quot;scroll&quot;+c],e.documentElement[&quot;scroll&quot;+c],e.body[&quot;offset&quot;+c],e.documentElement[&quot;offset&quot;+c]);if(a===b){var i=f.css(e,d),j=parseFloat(i);return f.isNumeric(j)?j:i}return this.css(d,typeof a==&quot;string&quot;?a:a+&quot;px&quot;)}}),a.jQuery=a.$=f,typeof define==&quot;function&quot;&amp;&amp;define.amd&amp;&amp;define.amd.jQuery&amp;&amp;define(&quot;jquery&quot;,[],function(){return f})}</find>
+      <find>Find Us On</find>
+      <find>��</find>
+      <find>li</find>
+      <find>&lt;li</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>src='{dede:global.cfg_templets_skin/}/</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templets/my/index_m.htm" />
+        <option value="$PROJECT_DIR$/templets/my/list_default.htm" />
+        <option value="$PROJECT_DIR$/templets/my/css/fonts/TitilliumText22L003-webfont.woff" />
+        <option value="$PROJECT_DIR$/include/dedesql.class.php" />
+        <option value="$PROJECT_DIR$/templets/my/head.htm.html" />
+        <option value="$PROJECT_DIR$/templets/my/js/libs/jquery-1.7.1.min.js" />
+        <option value="$PROJECT_DIR$/templets/my/footer.htm" />
+        <option value="$PROJECT_DIR$/templets/my/head.htm" />
+        <option value="$PROJECT_DIR$/templets/my/right.htm" />
+        <option value="$PROJECT_DIR$/templets/my/head2.htm" />
+        <option value="$PROJECT_DIR$/templets/my/index.htm" />
+        <option value="$PROJECT_DIR$/templets/my/list_article.htm" />
+        <option value="$PROJECT_DIR$/templets/my/article_default.htm" />
+        <option value="$PROJECT_DIR$/templets/my/student_default.htm" />
+        <option value="$PROJECT_DIR$/templets/my/list_student.htm" />
+        <option value="$PROJECT_DIR$/templets/my/article_student.htm" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.6" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="350" />
+    <option name="y" value="70" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dedeCMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dedeCMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PhpStorm2018.2.2Projects\dedeCMS\templets\my" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="671745fc-26c4-422a-96b0-b8f272549a3c" name="默认更改列表" comment="" />
+      <created>1556781998840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556781998840</updated>
+      <workItem from="1556782003479" duration="25123000" />
+      <workItem from="1556891024501" duration="4415000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29538000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18498659" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/a/nabuxinwen/houduanxinwen/list_5_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-948" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/index.html" />
+    <entry file="file://$PROJECT_DIR$/templets/default/list_image.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/index_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/css/fonts/TitilliumText22L003-webfont.woff">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/js/libs/modernizr-2.5.3.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/css/images/diapo/pause.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/css/diapo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3163" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-980" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/css/prettyPhoto.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/css/video-js.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/css/960.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1760">
+          <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/apple-touch-icon-57x57.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/apple-touch-icon-114x114.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/apple-touch-icon-72x72.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/apple-touch-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a/nabuxinwen/list_1_1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a/nabuxinwen/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a/nabuxinwen/houduanxinwen/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a/nabuxinwen/houduanxinwen/2019/0502/2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a/xuesheng/2019/0502/3.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a/xuesheng/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a/xuesheng/list_2_1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/dedesql.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="601" column="36" lean-forward="true" selection-start-line="601" selection-start-column="36" selection-end-line="601" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="83" lean-forward="true" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/templet-dirlist.inc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/templet-filelist.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/templet-pluslist.inc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/head,htm" />
+    <entry file="file://$PROJECT_DIR$/templets/default/head.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/js/libs/jquery-1.7.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="16003" selection-start-line="3" selection-start-column="16003" selection-end-line="3" selection-end-column="16003" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/footer.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/head2.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/head.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/right.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="102" selection-start-line="6" selection-start-column="94" selection-end-line="6" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a/nabuxinwen/qianduanxinwen/2019/0502/1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/head2.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/images/sep_medium.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="250" column="34" selection-start-line="250" selection-start-column="34" selection-end-line="250" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a/nabuxinwen/qianduanxinwen/list_4_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3656" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a/nabuxinwen/qianduanxinwen/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/arc.listview.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="993" column="23" selection-start-line="993" selection-start-column="20" selection-end-line="993" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/list_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="78" column="72" lean-forward="true" selection-start-line="78" selection-start-column="72" selection-end-line="78" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="81" column="31" lean-forward="true" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#1;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/index_m.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/list_default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/article_default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="68" column="60" selection-start-line="68" selection-start-column="60" selection-end-line="68" selection-end-column="60" />
+          <folding>
+            <element signature="e#4090#4096#0" expanded="true" />
+            <element signature="e#4096#4102#0" expanded="true" />
+            <element signature="e#4102#4108#0" expanded="true" />
+            <element signature="e#4108#4114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/list_student.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+          <folding>
+            <element signature="e#4090#4096#0" expanded="true" />
+            <element signature="e#4096#4102#0" expanded="true" />
+            <element signature="e#4102#4108#0" expanded="true" />
+            <element signature="e#4108#4114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/my/article_student.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

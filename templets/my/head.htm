@@ -1,0 +1,26 @@
+<!--独立的head-->
+<header>
+    <div class="container_12">
+        <div class="grid_2" id="logo">
+            <a href="{dede:global.cfg_templets_skin/}/#"><img src="{dede:global.cfg_templets_skin/}/images/logo_black.png" alt="Oreva Logo" /></a>
+        </div>
+        <div class="grid_10">
+            <div class="top-bar">
+                电话：<a href="tel:{dede:global.cfg_tel/}">{dede:global.cfg_tel/}</a>
+            </div>
+            <div class="clearfix"></div>
+            <nav>
+                <ul class="sf-menu">
+                    <li class="current-menu-item"><a href="{dede:global.cfg_indexurl/}">{dede:global.cfg_indexname/}</a></li>
+                    <!--循环频道标签-->
+                    {dede:channel type='top' row='8'}
+                    <li><a href='[field:typelink/]'>[field:typename/]</a> </li>
+                    {/dede:channel}
+                </ul>
+            </nav>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+</header>
+

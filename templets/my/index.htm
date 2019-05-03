@@ -1,0 +1,225 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Oreva Business Template</title>
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="{dede:global.cfg_templets_skin/}/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="{dede:global.cfg_templets_skin/}/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{dede:global.cfg_templets_skin/}/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{dede:global.cfg_templets_skin/}/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{dede:global.cfg_templets_skin/}/apple-touch-icon-114x114.png" />
+
+    <!-- Main Styleheet -->
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/style.css">
+    <!-- Fontface Styleheet -->
+    <!-- Grid Styleheet -->
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/960.min.css">
+    <!-- Slider Stylesheet -->
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/diapo.css">
+    <!-- Lightbox Styleheet -->
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/prettyPhoto.css">
+
+    <!-- JQuery Plugins -->
+    <script>window.jQuery || document.write('<script src="{dede:global.cfg_templets_skin/}/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+    <script type='text/javascript' src='{dede:global.cfg_templets_skin/}/js/libs/jquery.easing.1.3.js'></script>
+    <script type='text/javascript' src='{dede:global.cfg_templets_skin/}/js/libs/jquery.hoverIntent.minified.js'></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/libs/diapo.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/libs/jquery.tipsy.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/libs/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/libs/jquery.quovolver.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/libs/jquery.tweet.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/libs/superfish.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/plugins.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/script.js"></script>
+
+    <script>
+        $(function(){
+            $('.pix_diapo').diapo();
+        });
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="{dede:global.cfg_templets_skin/}/js/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> Upgrade to a different browser</a> or install Google Chrome Frame</a> to experience this site.</p>
+<![endif]-->
+<div id="container">
+
+    {dede:include file="head.htm"/}
+
+    <div class="clearfix"></div>
+
+    <div class="big-spacer">spacer</div>
+
+    <div class="container_12">
+        <div id="slider">
+            <div class="pix_diapo">
+
+                <!--循环所有栏目的文档-->
+                {dede:arclist infolen=255}
+                <div>
+                    <img src="[field:picname/]" style="width: 100%;height: 100%;">
+                    <div class="caption elemHover fromLeft">
+                        <div class="caption-txt">
+                            <h2>[field:title/]</h2>
+                            <p>[field:infos/]</p>
+                            <div><a href="[field:arcurl/]">详情</a></div>
+                        </div>
+                    </div>
+                </div>
+                {/dede:arclist}
+
+            </div>
+            <div class="slider-shadow"></div>
+        </div>
+    </div>
+
+    <div class="container_12">
+
+        <!--循环隐藏ID为4的小区域，获取摘要，infos摘要是当前表，，不需要连表-->
+       <!-- {dede:arclist idlist=4 infolen=255}
+        <div class="grid_9 intro-box sidebg upp-case">
+            <h2>[field:title/]</h2>
+            <p>[field:infos/]</p>
+        </div>
+        {/dede:arclist}-->
+
+        <!--循环隐藏ID为4的小区域，获取内容，内容字段不在当前表，需要连表，body代表连表需要拿哪个字段，channelid频道ID，就是内容模型，1是普通文章-->
+        {dede:arclist idlist=4 infolen=255 addfields='body' channelid=1}
+            <div class="grid_9 intro-box sidebg upp-case">
+                <h2>[field:title/]</h2>
+                <p>[field:body/]</p>
+            </div>
+        {/dede:arclist}
+
+        <div class="grid_3 social-icons upp-case">
+            <h2>友情链接</h2>
+            <div>战略合作伙伴</div>
+            <ul>
+                {dede:sql sql="select url,logo,webname from dede_flink;"}
+                    <li><a href="[field:url/]" class="tipsy" title="[field:webname/]"><img src="[field:logo/]" alt="[field:webname/]" width="30" height="30"></a></li>
+                {/dede:sql}
+            </ul>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <div class="container_12">
+
+
+
+        <!--循环嵌套标签，相当于双重循环-->
+        {dede:channelartlist}
+            <div class="grid_12">
+                <div class="big-bg-h3">
+                    <h3>{dede:field.typename/}</h3>
+                </div>
+            </div>
+            {dede:arclist}
+            <div class="grid_3">
+                <div class="home-portfolio">
+                    <div class="hover-img">
+                        <a rel="prettyPhoto" class="zoom fade-img" href=" [field:picname/]" title="Title goes here"></a>
+                        <a href=" [field:arcurl/]" class="fade-img"></a>
+                        <img src=" [field:picname/]" alt="Home Portfolio">
+                        <i style="opacity: 0;"></i>
+                    </div>
+                    <h3><a href="[field:arcurl/]">[field:title/]</a></h3>
+                    <div class="small-spacer"></div>
+                    <p>[field:infos/]</p>
+                </div>
+            </div>
+            {/dede:arclist}
+        {/dede:channelartlist}
+
+
+
+        <!-- Home Blog -->
+        <div class="grid_12">
+            <div class="big-bg-h3">
+                <h3>Recent From Blog</h3>
+            </div>
+        </div>
+        <div class="grid_3">
+            <div class="home-blog">
+                <h3><a href="{dede:global.cfg_templets_skin/}/blog-single.html">Sed consectetur</a></h3>
+                <div class="small-spacer"></div>
+                <p>Donec laoreet massa sit amet odio facilisis ac porttitor velit vulputate. Nullam et dolor sed dui tempor iaculis sed sed risus. Suspendisse potenti.</p>
+            </div>
+        </div>
+        <div class="grid_3">
+            <div class="home-blog">
+                <h3><a href="{dede:global.cfg_templets_skin/}/blog-single.html">Phasellus feugiat</a></h3>
+                <div class="small-spacer"></div>
+                <p>Donec laoreet massa sit amet odio facilisis ac porttitor velit vulputate. Nullam et dolor sed dui tempor iaculis sed sed risus. Suspendisse potenti.</p>
+            </div>
+        </div>
+        <div class="grid_3">
+            <div class="home-blog">
+                <h3><a href="{dede:global.cfg_templets_skin/}/blog-single.html">Phasellus feugiat</a></h3>
+                <div class="small-spacer"></div>
+                <p>Donec laoreet massa sit amet odio facilisis ac porttitor velit vulputate. Nullam et dolor sed dui tempor iaculis sed sed risus. Suspendisse potenti.</p>
+            </div>
+        </div>
+        <div class="grid_3">
+            <div class="home-blog">
+                <h3><a href="{dede:global.cfg_templets_skin/}/blog-single.html">Phasellus feugiat</a></h3>
+                <div class="small-spacer"></div>
+                <p>Donec laoreet massa sit amet odio facilisis ac porttitor velit vulputate. Nullam et dolor sed dui tempor iaculis sed sed risus. Suspendisse potenti.</p>
+            </div>
+        </div>
+        <!-- Home Blog -->
+
+        <div class="clearfix"></div>
+
+        <!-- Home Testimonials -->
+        <div class="grid_6">
+            <div class="home-medium-bg-h3">
+                <h3>What client say's</h3>
+            </div>
+
+
+            <div class="testimonial-box">
+                <div class="arrow-top"><img src="{dede:global.cfg_templets_skin/}/images/arrow_bottom.png" alt=""></div>
+                <blockquote>
+                    <p>Donec laoreet massa sit amet odio facilisis ac porttitor velit vulputate. Nullam et dolor sed dui tempor iaculis sed sed risus. Suspendisse potenti. Sed in nibh elit. Aliquam sollicitudin lacinia magna, sed rhoncus felis mattis et. Suspendisse congue, arcu euismod venenatis aliquet</p>
+                    <cite>Author Name</cite>
+                </blockquote>
+                <blockquote>
+                    <p>Nam nec dolor dui, id suscipit eros. Fusce dignissim bibendum lectus, in ornare tortor laoreet in. Donec sit amet arcu quis nibh consectetur vestibulum sed in diam. Proin quis neque risus, a dapibus lorem. Sed in nibh elit. Aliquam sollicitudin lacinia magna</p>
+                    <cite>Author Name</cite>
+                </blockquote>
+                <div class="clearfix"></div>
+            </div>
+
+        </div>
+        <!-- Home Testimonials -->
+
+        <!-- Home Twitter -->
+        <div class="grid_6">
+            <div class="home-medium-bg-h3">
+                <h3>Latest Tweets</h3>
+            </div>
+            <div class="twitter-box">
+                <img src="{dede:global.cfg_templets_skin/}/images/twitter_icon.png" alt="Twitter Bird">
+                <div class='tweet query'></div>
+            </div>
+        </div>
+        <!-- Home Twitter -->
+        <div class="clearfix home-spacer"></div>
+
+    </div>
+
+{dede:include file="footer.htm" /}
